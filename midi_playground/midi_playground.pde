@@ -39,9 +39,9 @@ void setup() {
   // List available MIDI inputs and outputs
   MidiBus.list();
   // Instantiate the MidiBus
-  mb1 = new MidiBus(this, -1, 1);
-  mb2 = new MidiBus(this, -1, 2);
-  mb3 = new MidiBus(this, -1, 3);
+  mb1 = new MidiBus(this, 1, 1);
+  //mb2 = new MidiBus(this, 1, 2);
+  //mb3 = new MidiBus(this, 1, 3);
 }
 
 // Draw loop

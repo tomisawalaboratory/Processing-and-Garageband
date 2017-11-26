@@ -24,7 +24,7 @@ void setup() {
   // List available MIDI inputs and outputs
   //MidiBus.list();
   // Instantiate the MidiBus
-  mb = new MidiBus(this, -1, "Virtual MIDI Bus");
+  mb = new MidiBus(this, 1, 1);
 }
 
 // Draw loop
